@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  /* Teyzix Core brand colors */
+  --color-forest: #16453a;
+  --color-forest-deep: #0e332a;
+  --color-forest-light: #1f5c4d;
+  --color-cream: #faf7f0;
+  --color-gold: #d4a64a;
+  --color-gold-soft: #f7ecd4;
+  --color-border-soft: #ece6d8;
+  --color-text-hi: #1d2b26;
+  --color-text-lo: #7c8a82;
+  --color-status-green: #2f8f5b;
+  --color-status-amber: #c98a2c;
+  --color-status-red: #c0392b;
+
+  /* Fonts */
+  --font-heading: "Poppins", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-text-hi);
+  font-family: var(--font-body);
+}
